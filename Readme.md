@@ -41,11 +41,11 @@ A simple and extensible Java-based **online bookstore system** that supports dif
 ## 📸 Screenshots for the Running App
 
 ### 📖 Scenario 1
-![Scenario 1](./testcases/scenario1.jpg)
+![Scenario 1](./TestCases/scenario1.jpg)
 
 
 ### 📖 Scenario 2
-![Scenario 2](./testcases/scenario2.jpg)
+![Scenario 2](./TestCases/scenario2.jpg)
 
 ---
 
