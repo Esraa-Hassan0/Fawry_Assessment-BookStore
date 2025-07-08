@@ -50,7 +50,7 @@ A simple and extensible Java-based **online bookstore system** that supports dif
 ---
 ## 📊 UML Diagram
 
-![UML ](./Data/UML.png)
+![UML ](./Data/Uml.png)
 
 
 ---
