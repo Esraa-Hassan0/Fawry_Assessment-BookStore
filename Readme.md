@@ -48,6 +48,12 @@ A simple and extensible Java-based **online bookstore system** that supports dif
 ![Scenario 2](./TestCases/scenario2.jpg)
 
 ---
+## 📊 UML Diagram
+
+![UML ](./Data/UML_2.png)
+
+
+---
 
 ## 🛠 How to Run
 

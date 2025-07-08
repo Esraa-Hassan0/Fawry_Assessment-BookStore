@@ -22,7 +22,7 @@ public class BookStore {
                 ConsoleColors.PURPLE + "A new book with ISBN " + book.getISBN() + " was added" + ConsoleColors.RESET);
     }
 
-    public List<Book> removeBooks(int maxGap) {
+    public List<Book> removeOutdatedBooks(int maxGap) {
         List<Book> outdatedBooks = new ArrayList<>();
         for (Book book : new ArrayList<>(inventory.values())) {
             if (book.isOutdated(maxGap)) {

@@ -74,7 +74,7 @@ public class Main {
         System.out.println(e.getMessage());
         }
 
-        store.removeBooks(10); 
+        store.removeOutdatedBooks(10); 
         
     }
 
