@@ -43,39 +43,96 @@ public class Main {
         // store.removeBooks(10); // Remove books older than 10 years
         // */
 
+        // /// scenario 2
+        // BookStore store = new BookStore();
 
+        // store.addBooks(new PaperBook("001", "C++ Primer", 20.5, Year.of(2000), 10));
+        // store.addBooks(new Ebook("002", "Learn Java", 30.0, Year.of(2020), "pdf"));
+        // store.addBooks(new DemoBook("003", "The Great Demo", Year.of(2019)));
 
+        // try {
+        // store.buyBook("001", 2, "esraa@demo.com", "123 Cairo Street");
+        // } catch (Exception e) {
+        // System.out.println(ConsoleColors.RED);
+        // System.out.println(e.getMessage());
+        // }
 
-        /// scenario 2
+        // try {
+        // store.buyBook("002", 1, "esraa@demo.com", "");
+        // } catch (Exception e) {
+        // System.out.println(ConsoleColors.RED);
+        // System.out.println(e.getMessage());
+        // }
+
+        // try {
+        // store.buyBook("003", 1, "", "");
+        // } catch (Exception e) {
+        // System.out.println(ConsoleColors.RED);
+        // System.out.println(e.getMessage());
+        // }
+
+        // store.removeOutdatedBooks(10);
+
+        /// scenario 3
+        // BookStore store = new BookStore();
+
+        // store.addBooks(new PaperBook("001", "C++ Primer", 20.5, Year.of(2000), 10));
+        // store.addBooks(new Ebook("002", "Learn Java", 30.0, Year.of(2020), "pdf"));
+        // store.addBooks(new DemoBook("003", "The Great Demo", Year.of(2019)));
+
+        // try {
+        // store.buyBook("001", 6, "esraa@demo.com", "123 Cairo Street");
+        // } catch (Exception e) {
+        // System.out.println(ConsoleColors.RED);
+        // System.out.println(e.getMessage());
+        // }
+
+        // try {
+        // store.buyBook("002", 1, "esraa@demo.com", "");
+        // } catch (Exception e) {
+        // System.out.println(ConsoleColors.RED);
+        // System.out.println(e.getMessage());
+        // }
+
+        // try {
+        // store.buyBook("001", 6, "", "");
+        // } catch (Exception e) {
+        // System.out.println(ConsoleColors.RED);
+        // System.out.println(e.getMessage());
+        // }
+
+        // store.removeOutdatedBooks(2);
+
+        // scenario 4
         BookStore store = new BookStore();
 
         store.addBooks(new PaperBook("001", "C++ Primer", 20.5, Year.of(2000), 10));
         store.addBooks(new Ebook("002", "Learn Java", 30.0, Year.of(2020), "pdf"));
         store.addBooks(new DemoBook("003", "The Great Demo", Year.of(2019)));
 
+        store.removeOutdatedBooks(2);
+
         try {
-        store.buyBook("001", 2, "esraa@demo.com", "123 Cairo Street");
+            store.buyBook("001", 6, "esraa@demo.com", "123 Cairo Street");
         } catch (Exception e) {
-        System.out.println(ConsoleColors.RED);
-        System.out.println(e.getMessage());
+            System.out.println(ConsoleColors.RED);
+            System.out.println(e.getMessage());
         }
 
         try {
-        store.buyBook("002", 1, "esraa@demo.com", "");
+            store.buyBook("002", 1, "esraa@demo.com", "");
         } catch (Exception e) {
-        System.out.println(ConsoleColors.RED);
-        System.out.println(e.getMessage());
+            System.out.println(ConsoleColors.RED);
+            System.out.println(e.getMessage());
         }
 
         try {
-        store.buyBook("003", 1, "", "");
+            store.buyBook("001", 6, "", "");
         } catch (Exception e) {
-        System.out.println(ConsoleColors.RED);
-        System.out.println(e.getMessage());
+            System.out.println(ConsoleColors.RED);
+            System.out.println(e.getMessage());
         }
 
-        store.removeOutdatedBooks(10); 
-        
     }
 
 }

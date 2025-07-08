@@ -47,6 +47,12 @@ A simple and extensible Java-based **online bookstore system** that supports dif
 ### 📖 Scenario 2
 ![Scenario 2](./TestCases/scenario2.jpg)
 
+### 📖 Scenario 3
+![Scenario 2](./TestCases/scenario3.jpg)
+
+### 📖 Scenario 4
+![Scenario 2](./TestCases/scenario4.jpg)
+
 ---
 ---
 
